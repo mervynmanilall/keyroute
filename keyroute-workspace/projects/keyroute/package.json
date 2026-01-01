@@ -1,0 +1,38 @@
+{
+  "name": "keyroute",
+  "version": "0.1.0",
+  "description": "Route keyboard shortcuts to application actions. Framework-agnostic keyboard shortcut routing for web applications",
+  "keywords": [
+    "keyboard",
+    "shortcuts",
+    "hotkeys",
+    "accessibility",
+    "keybindings",
+    "productivity",
+    "web",
+    "keyboard-events",
+    "keydown",
+    "keyup",
+    "hotkeys-js",
+    "keymaster",
+    "angular",
+    "react",
+    "vue",
+    "vite",
+    "vanilla-js"
+  ],
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "sideEffects": false,
+  "module": "fesm2022/keyroute.mjs",
+  "typings": "index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "esm2022": "./esm2022/keyroute.mjs",
+      "esm": "./esm2022/keyroute.mjs",
+      "default": "./fesm2022/keyroute.mjs"
+    }
+  }
+}
