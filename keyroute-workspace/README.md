@@ -8,6 +8,7 @@ Framework-agnostic. Tiny. No dependencies.
 ## What is keyroute?
 
 `keyroute` lets you map keyboard shortcuts to application actions in a simple and predictable way.
+Define your own keyboard shortcut and make your website more accessible.
 
 ```ts
 createKeyroute({
